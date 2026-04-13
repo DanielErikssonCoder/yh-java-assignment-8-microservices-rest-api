@@ -258,7 +258,7 @@ If you want to run the complete infrastructure, including the gateway, Keycloak,
 
 **[yh-java-assignment-8-microservices-rest-api-pi-stack](https://github.com/DanielErikssonCoder/yh-java-assignment-8-microservices-rest-api-pi-stack)**
 
-That repository contains the gateway and dashboard source code along with the Docker Compose configuration and database init scripts. It includes instructions for standing up the entire shared infrastructure. Once it is running, come back to Option 1 above and point your `application.yaml` at the stack's host.
+That repository contains the gateway and dashboard source code along with the Docker Compose configuration and database init scripts. It includes instructions for setting up the entire shared infrastructure. Once it is running, come back to Option 1 above and point your `application.yaml` at the stack's host.
 
 ## Why a Raspberry Pi?
 
