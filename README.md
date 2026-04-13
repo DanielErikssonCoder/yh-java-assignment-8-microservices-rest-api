@@ -24,7 +24,7 @@ A cinema management microservice for the Wigell Portal, handling customers, movi
 
 Built as part of a group project in 'Backend Development' for the YH education in Java System Development, this microservice is one of four services in the Wigell Portal. It handles everything related to cinema operations: managing customers, rooms, movies, screenings, bookings (room rentals), and ticket purchases.
 
-The service integrates with a shared **Keycloak 26.3** instance for authentication and authorization, a shared **MySQL 8.0** database, a **Spring Cloud Gateway** for routing, and a **Spring Boot Admin** dashboard for monitoring. All of this shared infrastructure runs on a **Raspberry Pi 5** that I set up as a central server for the group, with all four developers connected over **Tailscale VPN**. More on that further down.
+The service integrates with a shared **Keycloak 26.3** instance for authentication and authorization, a shared **MySQL 8.0** database, a **Spring Cloud Gateway** for routing, and a **Spring Boot Admin** dashboard for monitoring. All of this shared infrastructure runs on a **Raspberry Pi 5** that I deployed as a central server for the group, with all four developers connected over **Tailscale VPN**. More on that further down.
 
 The API supports two roles, **ADMIN** and **USER**, each with their own set of endpoints and access restrictions. It demonstrates proper use of **Spring Data JPA**, **Keycloak JWT resource server**, **DTO-based request handling**, **global exception handling** with correct HTTP status codes, and automatic **SEK to USD currency conversion** via a shared library.
 
